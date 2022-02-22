@@ -33,7 +33,7 @@ class linkedlist {
         let temp = this.head;
         let next_node;
         let i = 0;
-        while(i < n - 1 && temp)
+        while(i < n - 2 && temp)
         {
             temp = temp.next;
             i++;
